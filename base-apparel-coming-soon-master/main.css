@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: "Josefin Sans";
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-content {
+    width: 60%;
+    height: 615px;
+    background-image: url("images/bg-pattern-desktop.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.aside-image {
+    width: 40%;
+    height: 615px;
+    /* background-color: aqua; */
+}
+
+.logo-img {
+    margin-right: 200px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 615px;
+}
+
+.header {
+    line-height: 20px;
+    margin-right: 150px;
+    /* font-stretch: ultra-expanded; */
+}
+
+.header-1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+    letter-spacing: 7px;
+    /* font-stretch: 500px; */
+}
+
+.header-2 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.header-3 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.sub-1 {
+    font-size: 12px;
+    width: 500px;
+    margin-left: 125px;
+    /* font-stretch: ultra-expanded; */
+    color: hsl(0, 36%, 70%);
+    font-weight: lighter;
+}
