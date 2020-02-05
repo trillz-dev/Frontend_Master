@@ -17,13 +17,11 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* text-align: center; */
 }
 
 .aside-image {
     width: 40%;
     height: 615px;
-    /* background-color: aqua; */
 }
 
 .logo-img {
@@ -37,34 +35,50 @@ body {
 
 .header {
     line-height: 20px;
-    margin-right: 150px;
-    /* font-stretch: ultra-expanded; */
+    margin-right: 80px;
 }
 
 .header-1 {
-    font-size: 70px;
+    font-size: 50px;
     text-transform: uppercase;
     color: hsl(0, 36%, 70%);
     font-weight: 300;
-    letter-spacing: 7px;
-    /* font-stretch: 500px; */
+    letter-spacing: 12px;
 }
 
 .header-2 {
     font-size: 50px;
     text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 .header-3 {
     font-size: 50px;
     text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.sub-header {
+    margin: 0px;
 }
 
 .sub-1 {
-    font-size: 12px;
-    width: 500px;
-    margin-left: 125px;
-    /* font-stretch: ultra-expanded; */
+    font-size: 15px;
+    width: 350px;
+    margin-right: 10px;
     color: hsl(0, 36%, 70%);
     font-weight: lighter;
+    line-height: 23px;
 }
+
+.main-email {
+    width: 350px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 1px solid #E1D2D5;
+}
+
+/* .main-email, input placeholder {
+    margin-right : 20px;
+} */
