@@ -11,7 +11,7 @@ body {
 
 .main-content {
     width: 60%;
-    height: 615px;
+    height: 654px;
     background-image: url("images/bg-pattern-desktop.svg");
     display: flex;
     flex-direction: column;
@@ -21,7 +21,9 @@ body {
 
 .aside-image {
     width: 40%;
-    height: 615px;
+    height: 654px;
+    background-color: blue;
+    display: block;
 }
 
 .logo-img {
@@ -30,7 +32,7 @@ body {
 
 .hero-img {
     width: 100%;
-    height: 615px;
+    height: 100vh;
 }
 
 .header {
@@ -73,12 +75,32 @@ body {
 
 .main-email {
     width: 350px;
-    height: 35px;
+    height: 40px;
     margin-right: 20px;
     border-radius: 20px;
-    border: 1px solid #E1D2D5;
+    border: 1px solid rgb(214, 210, 225);
 }
 
-/* .main-email, input placeholder {
-    margin-right : 20px;
+/* input [type="email"] {
+    width: 200px;
 } */
+
+.wrapper {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    top: 0px;
+    left: 297px;
+    margin-right: 50px;
+    width: 80px;
+    height: 45px;
+    /* padding: 11px 0 11px 20px; */
+    box-shadow: 2px 7px 7px 3px hsl(0, 42%, 94%);
+    border-radius: 44%;
+    border: none;
+    background: linear-gradient(130deg, hsl(17, 79%, 89%), to hsl(0, 77%, 72%));
+    background-color: hsl(0, 93%, 68%);
+
+}
