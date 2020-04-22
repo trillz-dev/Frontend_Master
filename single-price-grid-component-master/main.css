@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 80px;
     width: 700px;
     height: 500px;
 
@@ -30,6 +30,7 @@
 .col-1 {
     background-color: #FFFFFF;
     padding-left: 30px;
+    width: 730px;
     height: 250px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -59,13 +60,15 @@
 }
 
 .sub-header-1 {
+    font-size: 18px;
     color: hsl(71, 73%, 54%);
     padding-bottom: 0px;
 }
 
 .paragraph-1 {
+    font-size: 18px;
     color: hsl(218, 22%, 67%);
-    width: 550px;
+    width: 600px;
     line-height: 30px;
 }
 
@@ -107,9 +110,8 @@ span {
     }
 
     .container {
-        /* margin: 40px 20px 20px 20px; */
         margin-bottom: 70px;
-        height: 700px;
+        height: 750px;
     }
 
     .sub-container {
@@ -119,43 +121,74 @@ span {
     }
 
     .col-1 {
-        width: 280px;
+        width: 330px;
+        height: 280px;
         border-radius: 5px 5px 0px 0px;
     }
 
     .col-2 {
-        width: 280px;
+        width: 330px;
         border-radius: 0px;
-        height: 220px;
+        height: 250px;
     }
 
     .col-3 {
-        width: 280px;
-        height: 220px;
+        width: 330px;
+        height: 250px;
         border-radius: 0px 0px 5px 5px;
 
     }
 
     .header-1 {
-        padding-top: 10px;
+        font-size: 12px;
+        padding-top: 15px;
         padding-bottom: 1px;
     }
 
+    .sub-header-1 {
+        font-size: 12px;
+        width: 250px;
+    }
+
     .paragraph-1 {
-        width: 245px;
-        line-height: 20px;
+        font-size: 15px;
+        width: 300px;
+        line-height: 27px;
     }
 
     .header-2 {
+        font-size: 16px;
         padding-top: 10px;
+    }
+
+    .sub-header-2 {
+        font-size: 18px;
+    }
+
+    .paragraph-2 {
+        font-size: 16px;
+    }
+
+    span {
+        font-size: 14px;
     }
 
     .button {
-        padding-top: 30px;
+        padding-top: 10px;
+    }
+    
+    button {
+        width: 300px;
+
     }
 
     .header-3 {
+        font-size: 16px;
         padding-top: 10px;
+    }
+
+    .paragraph-3 {
+        font-size: 14px;
     }
 
 }
