@@ -19,6 +19,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 
@@ -92,7 +93,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1C2230;
-    background-image: url(images/bg-curvy-desktop.svg);
+    /* background-image: url(images/bg-curvy-desktop.svg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -525,6 +526,10 @@ body {
 
     .intro-section {
         padding-top: 150px;
+        background-image: url(images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .row-1 {
