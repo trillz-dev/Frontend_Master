@@ -469,9 +469,15 @@ body {
 
 
 
+/* @media screen and (max) */
 
 
-@media screen and (max-width: 400px) {
+
+
+
+
+
+@media screen and (max-width: 500px) {
 
     .body {
         background-color: white;
@@ -826,26 +832,6 @@ body {
         width: 120px;
         font-size: 25px;
     }
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
