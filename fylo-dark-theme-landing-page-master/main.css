@@ -469,12 +469,6 @@ body {
 
 
 
-/* @media screen and (max) */
-
-
-
-
-
 
 
 @media screen and (max-width: 500px) {
@@ -485,11 +479,11 @@ body {
 
     .header {
         padding-top: 25px;
-        width: 400px;
     }
 
     .navbar {
-        width: 350px;
+        width: 400px;
+        margin-bottom: 50px;
     }
 
     .navbar-logo {
@@ -631,7 +625,7 @@ body {
     .testimony-bg-img {
         width: 25px;
         position: relative;
-        left: 45px;
+        left: 55px;
         top: 8px;
     }
 
@@ -687,7 +681,7 @@ body {
     }
 
     .email-section {
-        /* margin-top: 70px; */
+        margin-top: -5px;
         position: relative;
         top: 210px;
     }
@@ -809,7 +803,7 @@ body {
         width: 330px;
         font-size: 20px;
         line-height: 30px;
-        margin-top: -8px;
+        margin-top: -9px;
     }
     
     .footer-ul-text {
