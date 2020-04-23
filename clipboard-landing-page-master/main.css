@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    padding-top: 80px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+.header-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 16px;
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-text {
+    font-size: 14.5px;
+    text-align: center;
+    width: 500px;
+    margin-top: -25px;
+    line-height: 23px;
+}
+
+.header-download-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    margin-top: 20px;
+    
+}
+
+.ios-btn {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(171, 66%, 44%);
+    color: #FFFFFF;
+}
+
+.mac-btn {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(233, 100%, 69%);
+    color: #FFFFFF;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.sub-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-title {
+    font-size: 14px;
+    text-align: center;
+}
+
+.sub-text {
+    font-size: 13px;
+    text-align: center;
+    width: 500px;
+    margin-top: -10px;
+    line-height: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 200px;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    body {
+        margin: 0px;
+    }
+
+    .header {
+    background-image: url(images/bg-header-mobile.png);
+    background-size: cover;
+    }
+}
