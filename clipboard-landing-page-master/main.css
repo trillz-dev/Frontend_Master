@@ -363,6 +363,7 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     width: 400px;
+    color: #9C9D9F;
 }
 
 .footer-social-icon {
@@ -556,14 +557,6 @@ body {
         width: 350px;
     }
     
-    .section-col-2 {
-        /* margin-top: -20px; */
-    }
-    
-    .section-col-3 {
-        /* margin-top: -10px; */
-    }
-    
     .card-img {
         margin-bottom: 25px;
         width: 45px;
@@ -582,6 +575,100 @@ body {
         line-height: 20px;
         width: 300px;
     }
+
+    .sponsor-section {
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+    
+    .sponsor-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 0px;
+        height: 500px;
+    }
+    
+    .sponsor-img {
+        width: 150px;
+    }
+
+    .footer-title {
+        width: 350px;
+        margin-top: 50px;
+    }
+    
+    .footer-caption {
+        font-size: 18px;
+        width: 330px;
+        padding-top: 7px;
+        line-height: 25px;
+    }
+    
+    .footer-download-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 125px;
+        margin-top: 30px;
+        
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: #F5F6F8;
+        padding: 5px;
+    }
+    
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 0px;
+        height: 420px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .footer-img {
+        width: 60px;
+    }
+    
+    .footer-row {
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    
+    .footer-row-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        width: 150px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .footer-col {
+        line-height: 30px;
+        margin-bottom: -10px;
+    }
+    
+    .social-icon-container {
+        width: 150px;
+    }
+    
+    .icon-img {
+        width: 25px;
+    }
+
+    
   
 
 
