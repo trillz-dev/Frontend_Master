@@ -37,18 +37,22 @@ body {
     color: #ffffff;
 }
 
+.col-2 {
+    margin-top: 20px;
+}
+
 .title{
-    width: 350px;
-    font-size: 16px;
-    font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    width: 350px;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 45px;
 }
 
 .text {
-    font-size: 14px;
-    width: 385px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 400px;
     line-height: 25px;
     margin-top: -10px;
     margin-bottom: 10px;
@@ -66,7 +70,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 170px;
+    margin-right: 135px;
 }
 
 .icon {
