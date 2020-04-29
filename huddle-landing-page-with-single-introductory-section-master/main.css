@@ -79,3 +79,69 @@ body {
     font-size: 20px;
 }
 
+
+@media screen and (max-width: 500px) {
+
+    body {
+        margin: 0px;
+        background-image: url(images/bg-mobile.svg);
+        background-size: contain;
+    }
+
+    .body-container {
+        margin-left: 0px;
+        align-items: center;
+    }
+
+    .logo-img {
+        width: 150px;
+        position: relative;
+        left: -107px;
+    
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-container {
+        width: 350px;
+        margin-left: 0px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .image {
+        width: 350px;
+    }
+
+    .title {
+        width: 300px;
+        font-size: 12px;
+        line-height: 35px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .text {
+        width: 300px;
+        font-size: 16px;
+        margin-left: 22px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        width: 200px;
+    }
+
+    .icon-container {
+        margin-left: 110px;
+        margin-bottom: 40px;
+    }
+}
+
