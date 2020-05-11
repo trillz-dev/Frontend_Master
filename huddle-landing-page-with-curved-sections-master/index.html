@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" href="main.css">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <div class="header">
+  <header class="header">
     <div class="header-container">
       <div class="header-logo">
         <img src="images/logo.svg" alt="" class="logo-img">
@@ -22,7 +22,7 @@
         <button class="header-btn">Try it free</button>
       </div>
     </div>
-  </div>
+  </header>
 
   <div class="hero-header">
     <div class="hero-container">
@@ -43,136 +43,179 @@
     <img src="images/screen-mockups.svg" alt="" class="hero-img">
   </div>
 
-  <div class="analytics-section">
-    <div class="analytics-container">
-      <div class="analytics-row-1">
-        <div class="analytics-col">
-          <div class="analytics-images">
-            <img src="images/icon-communities.svg" alt="" class="analytics-icon">
+  <section>
+    <div class="analytics-section">
+      <div class="analytics-container">
+        <div class="analytics-row-1">
+          <div class="analytics-col">
+            <div class="analytics-images">
+              <img src="images/icon-communities.svg" alt="" class="analytics-icon">
+            </div>
+          </div>
+          <div class="analytics-number">
+            <h1>1.4k+</h1>
+          </div>
+          <div class="analytics-text">
+            <p>Communities Formed</p>
           </div>
         </div>
-        <div class="analytics-number">
-          <h1>1.4k+</h1>
-        </div>
-        <div class="analytics-text">
-          <p>Communities Formed</p>
-        </div>
-      </div>
-      <div class="analytics-row-2">
-        <div class="analytics-col">
-          <div class="analytics-images">
-            <img src="images/icon-messages.svg" alt="" class="analytics-icon">
+        <div class="analytics-row-2">
+          <div class="analytics-col">
+            <div class="analytics-images">
+              <img src="images/icon-messages.svg" alt="" class="analytics-icon">
+            </div>
           </div>
-        </div>
-        <div class="analytics-number">
-          <h1>2.7m+</h1>
-        </div>
-        <div class="analytics-text">
-          <p>Messages Sent</p>
+          <div class="analytics-number">
+            <h1>2.7m+</h1>
+          </div>
+          <div class="analytics-text">
+            <p>Messages Sent</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="grow-section">
-    <div class="grow-container">
-      <div class="grow-message">
-        <div class="grow-title">
-          <h1>Grow Together</h1>
-        </div>
-        <div class="grow-text">
-          <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
-            Think of the insightful conversations you miss out on with a feedback form. </p>
-        </div>
-      </div>
-      <div class="grow-image">
-        <img src="images/illustration-grow-together.svg" alt="" class="grow-img">
-      </div>
+  <section>
+    <div class="bg-top-1">
+      <img src="images/bg-section-top-desktop-1.svg" alt="" class="bg-img">
     </div>
-  </div>
 
-  <div class="flow-section">
-    <div class="flow-container">
-      <div class="flow-image">
-        <img src="images/illustration-flowing-conversation.svg" alt="" class="flow-img">
-      </div>
-      <div class="flow-message">
-        <div class="flow-title">
-          <h1>Flowing Conversations</h1>
+    <div class="grow-section">
+      <div class="grow-container">
+        <div class="grow-message">
+          <div class="grow-title">
+            <h1>Grow Together</h1>
+          </div>
+          <div class="grow-text">
+            <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+              Think of the insightful conversations you miss out on with a feedback form. </p>
+          </div>
         </div>
-        <div class="flow-text">
-          <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-            just-in-time loading for a more natural flow.</p>
+        <div class="grow-image">
+          <img src="images/illustration-grow-together.svg" alt="" class="grow-img">
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="user-section">
-    <div class="user-container">
-      <div class="user-message">
-        <div class="user-title">
-          <h1>Your Users</h1>
-        </div>
-        <div class="user-text">
-          <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-            once signed in to your app, your users can start chatting immediately.</p>
-        </div>
-      </div>
-      <div class="user-image">
-        <img src="images/illustration-your-users.svg" alt="" class="user-img">
-      </div>
+    <div class="bg-bottom-1">
+      <img src="images/bg-section-bottom-desktop-1.svg" alt="" class="bg-img">
     </div>
-  </div>
 
-  <div class="call-to-action">
-    <div class="call-title">
-      <h1>Ready To Build Your Community?</h1>
-    </div>
-    <div class="call-button">
-      <button class="call-btn">Get Started For Free</button>
-    </div>
-  </div>
+  </section>
 
-  <div class="footer">
-    <div class="footer-container">
-      <div class="footer-section">
-        <div class="section-container">
-          <div class="footer-logo">
-            <img src="images/logo.svg" alt="" class="footer-img">
+  <section>
+    <div class="flow-section">
+      <div class="flow-container">
+        <div class="flow-image">
+          <img src="images/illustration-flowing-conversation.svg" alt="" class="flow-img">
+        </div>
+        <div class="flow-message">
+          <div class="flow-title">
+            <h1>Flowing Conversations</h1>
           </div>
-          <div class="footer-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-              vestibulum a, ultrices quis sem.</p>
-          </div>
-          <div class="footer-phone">
-            <img src="images/icon-phone.svg" alt="" class="phone-icon">
-            <p>Phone: +1-543-123-4567</p>
-          </div>
-          <div class="footer-email">
-            <img src="images/icon-email.svg" alt="" class="email-icon">
-            <p>example@huddle.com</p>
+          <div class="flow-text">
+            <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+              just-in-time loading for a more natural flow.</p>
           </div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <div class="newsletter-section">
-        <div class="news-container">
-          <div class="news-title">
-            <h1>Newsletter</h1>
+  <section>
+    <div class="bg-top-2">
+      <img src="images/bg-section-top-desktop-2.svg" alt="" class="bg-img">
+    </div>
+
+    <div class="user-section">
+      <div class="user-container">
+        <div class="user-message">
+          <div class="user-title">
+            <h1>Your Users</h1>
           </div>
-          <div class="news-text">
-            <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-              send you spam or pass on your email address</p>
+          <div class="user-text">
+            <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+              once signed in to your app, your users can start chatting immediately.</p>
           </div>
-          <form action="">
-            <input type="email" class="email-input">
-            <input type="button" value="Subscribe" class="submit-btn">
-          </form>
+        </div>
+        <div class="user-image">
+          <img src="images/illustration-your-users.svg" alt="" class="user-img">
         </div>
       </div>
     </div>
-  </div>
+
+    <div class="bg-bottom-2">
+      <img src="images/bg-section-bottom-desktop-2.svg" alt="" class="bg-img">
+    </div>
+  </section>
+
+  <section>
+    <div class="call-to-action">
+      <div class="call-title">
+        <h1>Ready To Build Your Community?</h1>
+      </div>
+      <div class="call-button">
+        <button class="call-btn">Get Started For Free</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer>
+      <div class="bg-footer">
+        <img src="images/bg-footer-top-desktop.svg" alt="" class="bg-img">
+      </div>
+      
+      <div class="footer-container">
+        <div class="footer-section">
+          <div class="section-container">
+            <div class="footer-logo">
+              <img src="images/logo.svg" alt="" class="footer-img">
+            </div>
+            <div class="footer-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+                vestibulum a, ultrices quis sem.</p>
+            </div>
+            <div class="footer-phone">
+              <div class="phone-icon">
+                <img src="images/icon-phone.svg" alt="" class="icon">
+              </div>
+              <div class="phone-number">
+                <p>Phone: +1-543-123-4567</p>
+              </div>
+              
+            </div>
+            <div class="footer-email">
+              <div class="email-icon">
+                <img src="images/icon-email.svg" alt="" class="email-icon">
+              </div>
+              <div class="email-add">
+                <p>example@huddle.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="newsletter-section">
+          <div class="news-container">
+            <div class="news-title">
+              <h1>Newsletter</h1>
+            </div>
+            <div class="news-text">
+              <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+                send you spam or pass on your email address</p>
+            </div>
+            <form action="">
+              <input type="email" class="email-input">
+              <input type="button" value="Subscribe" class="submit-btn">
+            </form>
+          </div>
+        </div>
+      </div>
+  </footer>
 
 
   
